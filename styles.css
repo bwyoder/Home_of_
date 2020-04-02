@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -13,8 +15,6 @@ body {
     background-color: #d3d3d3;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,7 +30,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #707070;
+    background-color: #505050;
     z-index: 9;
 }
 
@@ -65,21 +65,68 @@ nav {
 }
 
 .all-links:hover {
-    background-color: #4b4b4b;
+    background-color: #3a3a3a;
 }
 
 main{
     margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main p {
+.banner {
+    width: 100%;
+    background-image: url(images/IMG_3918-768x512.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.title {
+    font-size: 10rem;
+    text-shadow: 3px 3px 3px #000000;
+
+}
+
+.sub-text {
     font-size: 3rem;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000000;
+
 }
 
 footer {
-    background-color: #707070;
+    background-color: #505050;
     width: 100%;
     color: #ffffff;
     padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
+}
+
+p {
+    font-size: 2rem;
+}
+
+small {
+    font-size: 1.2rem;
+}
+
+.logo {
+    height: 4rem;
+    margin: 2rem;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
