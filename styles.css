@@ -53,6 +53,9 @@ nav {
 }
 
 .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     padding: 2rem;
 }
@@ -72,13 +75,6 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.sub-text {
-    font-size: 3rem;
-    font-style: italic;
-    text-shadow: 2px 2px 2px #000000;
-
 }
 
 footer {
@@ -108,4 +104,42 @@ small {
 
 .logo:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        flex-direction: column;
+        height: fit-content;
+        position: static;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    small {
+        margin: 2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 50%;
+    }
+    .home-link {
+        font-size: 3rem;
+    }
+    .nav-link {
+        padding: 1rem;
+    }
 }

@@ -19,6 +19,12 @@
 .title {
     font-size: 10rem;
     text-shadow: 3px 3px 3px #000000;
+}
+
+.sub-text {
+    font-size: 3rem;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000000;
 
 }
 
@@ -89,6 +95,7 @@
 .sponsor-text-block {
     text-align: center;
     padding: 4rem;
+    max-width: 50%;
 }
 
 .sponsor-title {
@@ -99,4 +106,104 @@
 .p-link {
     text-decoration: none;
     color: #000000;
+}
+
+.sponsor-child-img {
+    max-width: 50%;
+}
+
+@media (max-width: 1000px) {
+    .tile {
+        margin: 2rem;
+    }
+    #sponsor {
+        flex-direction: column-reverse;
+    }
+    .sponsor-child-img {
+        max-width: 100%;
+    }
+    .sponsor-text-block {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .banner {
+        margin-top: 0;
+        height: 50rem;
+    }
+    .title {
+        font-size: 8rem;
+    }
+    .tile {
+        height: 50rem;
+        padding: 0;
+        margin: 1rem;
+    }
+    .tile-title {
+        font-size: 6rem;
+    }
+    .tile-sub-text {
+        font-size: 2rem;
+    }
+    .tile-link {
+        height: 3rem;
+        width: 15rem;
+        font-size: 1.5rem;
+    }
+    #sponsore {
+        margin: 1rem;
+    }    
+}
+
+@media (max-width: 600px) {
+    .banner {
+        height: 40rem;
+    }
+    .title {
+        font-size: 6rem;
+    }
+    .sub-text {
+        font-size: 2rem;
+    }
+    .tile {
+        height: 40rem;
+        padding: 0;
+        margin: 1rem;
+    }
+    .tile-title {
+        font-size: 5rem;
+    }
+    .tile-sub-text {
+        font-size: 2rem;
+    }
+    #sponsore {
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner {
+        height: 30rem;
+    }
+    .title {
+        font-size: 4rem;
+    }
+    .sub-text {
+        font-size: 1.5rem;
+    }
+    .tile {
+        height: 30rem;
+        padding: 0;
+        margin: 1rem;
+    }
+    .tile-title {
+        font-size: 4rem;
+    }
+    .tile-sub-text {
+        font-size: 1.5rem;
+    }
+    #sponsore {
+        margin: 1rem;
+    }
 }
