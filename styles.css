@@ -49,7 +49,7 @@ nav {
     font-size: 4rem;
     font-style: italic;
     font-weight: bold;
-    padding: 0.5rem 0.5em;
+    padding: 0.5rem 0.5rem;
 }
 
 .nav-link {
@@ -69,30 +69,9 @@ nav {
 }
 
 main{
-    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.banner {
-    width: 100%;
-    background-image: url(images/IMG_3918-768x512.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #ffffff;
-    height: 60rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 6rem;
-}
-
-.title {
-    font-size: 10rem;
-    text-shadow: 3px 3px 3px #000000;
-
 }
 
 .sub-text {

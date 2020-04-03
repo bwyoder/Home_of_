@@ -1,3 +1,102 @@
 #home {
     background-color: #3a3a3a;
 }
+
+.banner {
+    width: 100%;
+    background-image: url(images/IMG_3918-768x512.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.title {
+    font-size: 10rem;
+    text-shadow: 3px 3px 3px #000000;
+
+}
+
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    height: 75rem;
+    width: 100rem;
+    max-width: 100%;
+    margin: 5rem;
+    padding: 5rem;    
+}
+
+#services-tile {
+    background-image: url(images/hogar_de_bendicion.jpg);
+}
+
+#about-tile {
+    background-image: url(images/family_portrait.jpg);
+}
+
+.tile-title {
+    font-size: 8rem;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.tile-sub-text {
+    font-size: 3rem;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.tile-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000000;
+    background-color: #ffffffaa;
+    height: 5rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    margin: 5rem;
+    transition: background-color 0.5s ease;
+}
+
+.tile-link:hover {
+    background-color: #ffffffff
+}
+
+#sponsor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100rem;
+    max-width: 100%;
+    margin: 3rem;
+}
+
+.sponsor-text-block {
+    text-align: center;
+    padding: 4rem;
+}
+
+.sponsor-title {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.p-link {
+    text-decoration: none;
+    color: #000000;
+}

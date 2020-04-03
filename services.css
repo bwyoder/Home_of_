@@ -2,7 +2,9 @@
     background-color: #3a3a3a;
 }
 
-
+main{
+    margin-top: 6rem;
+}
 
 .services {
     display: flex;
