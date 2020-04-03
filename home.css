@@ -190,7 +190,7 @@
         font-size: 4rem;
     }
     .sub-text {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .tile {
         height: 30rem;
@@ -201,9 +201,15 @@
         font-size: 4rem;
     }
     .tile-sub-text {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     #sponsore {
         margin: 1rem;
+    }
+}
+
+@media (max-height: 500px) {
+    .banner {
+        margin-top: 0rem;
     }
 }

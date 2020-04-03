@@ -31,20 +31,20 @@ main{
 }
 
 #feeding-program-banner {
-    background-image: url(/images/IMG_3923-768x512.jpg);
+    background-image: url(images/IMG_3923-768x512.jpg);
 
 }
 
 #bible-study-banner {
-    background-image: url(/images/bible_study.jpg);
+    background-image: url(images/bible_study.jpg);
 }
 
 #school-supplies-banner {
-    background-image: url(/images/school-supplies.jpg);
+    background-image: url(images/school-supplies.jpg);
 }
 
 #other-services-banner {
-    background-image: url(/images/other_services.jpg);
+    background-image: url(images/other_services.jpg);
 }
 
 .section-title {
