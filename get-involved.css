@@ -1,0 +1,37 @@
+#get-involved {
+    background-color: #3a3a3a;
+}
+
+.page-banner {
+    width: 100%;
+    background-image: url(images/9999.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.p-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.text-container {
+    width: 1000px;
+    max-width: 90%;
+    padding: 3rem;
+    text-align: left;
+}
+
+.address {
+    text-align: left;
+}
+
+.paypal {
+    margin: 5rem;
+}
