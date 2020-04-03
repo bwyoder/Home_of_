@@ -1,0 +1,36 @@
+#contact {
+    background-color: #3a3a3a;
+}
+
+.heading {
+    font-size: 4rem;
+    margin: 4rem;
+}
+
+.contact-mediums {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.contact-medium {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4rem;
+    margin: 4rem;
+    min-width: fit-content;
+    text-decoration: none;
+    color: #000000;
+    transition: transform 0.2s ease;
+}
+
+.contact-medium:hover {
+    transform: scale(1.01);
+}
+
+.contact-icon {
+    height: 10rem;
+    margin: 3rem;
+}
