@@ -155,6 +155,7 @@ small {
         height: 0.3rem;
         background: #ffffff;
         margin: 0.3rem;
+        box-shadow: 1px 1px 4px #000000;
     }
     .nav-links{
         width: 100%;
