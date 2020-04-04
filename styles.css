@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 * {
     box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
 
 body {
     background-color: #d3d3d3;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     display: flex;
     flex-direction: column;
