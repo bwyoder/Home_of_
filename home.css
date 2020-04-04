@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 6rem;
+    margin-top: 5.5rem;
 }
 
 .title {
@@ -127,7 +127,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px), (max-height: 650px) {
     .banner {
         margin-top: 0;
         height: 50rem;
@@ -156,7 +156,7 @@
     }    
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .banner {
         height: 40rem;
     }
@@ -205,11 +205,5 @@
     }
     #sponsore {
         margin: 1rem;
-    }
-}
-
-@media (max-height: 500px) {
-    .banner {
-        margin-top: 0rem;
     }
 }

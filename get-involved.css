@@ -39,5 +39,8 @@
 }
 
 .paypal {
-    margin: 5rem;
+    padding: 2rem;
+    margin: 2rem;
+    border: 1px solid #a8a8a8;
+    border-radius: 1rem;
 }

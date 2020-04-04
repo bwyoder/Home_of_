@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home of Blessing</title>
+    <script src="nav.js" defer></script>
     <link href="styles.css" rel="stylesheet">
     <link href="get-involved.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
-        <a href="index.html" class="home-link all-links">Home of Blessing</a>
-        <nav class="nav">
+        <div class="header-container">
+            <a href="index.html" class="home-link all-links">Home of Blessing</a>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"> </div>
+            </div>
+        </div>
+        <div class="nav-links">
             <a href="index.html" id="home" class="nav-link all-links">Home</a>
             <a href="services.html" id="services" class="nav-link all-links">Services</a>
             <a href="about.html" id="about" class="nav-link all-links">Our Story</a>
             <a href="contact.html" id="contact" class="nav-link all-links">Contact</a>
             <a href="get-involved.html" id="get-involved" class="nav-link all-links">Get Involved</a>
         </nav>
-    </header>
+    </header>>
     <section class="page-banner">
         <h1 class="title">How can you help?</h1>
     </section>
@@ -34,11 +42,12 @@
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="paypal">
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" value="E7P2NMJWYLXGW" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
         </form>
     </main>
     <footer class="footer">
+        <a href="#" class="link-to-top">BACK TO TOP</a>
         <small>© 2020 Brian Yoder. All Rights Reserved.</small>
         <small>Home of Blessing<br>840 Parks Road<br> Woodleaf NC 27054</small>
         <div id="contact-links">

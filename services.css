@@ -2,20 +2,18 @@
     background-color: #3a3a3a;
 }
 
-main{
-    margin-top: 6rem;
+main {
+    margin-top: 5.5rem;
 }
-
 .services {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 4rem;
+    margin-bottom: 8rem;
     max-width: 1200px;
     border-bottom: 3px solid #afafaf;
-
 }
 
 .section-banners {
@@ -59,14 +57,32 @@ main{
     text-align: left;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px), (max-height: 650px) {
+    main {
+        margin-top: 0;
+    }
     .section-title {
         font-size: 8rem;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+    .section-banners {
+        height: 40rem;
+    }
     .section-title {
         font-size: 6rem;
+    }
+    .text-container {
+        padding: 3rem 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-banners {
+        height: 30rem;
+    }
+    .section-title {
+        font-size: 4rem;
     }
 }
