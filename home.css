@@ -8,7 +8,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: #ffffff;
+    color: #dddddd;
     height: 60rem;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    color: #ffffff;
+    color: #dddddd;
     height: 75rem;
     width: 100rem;
     max-width: 100%;
@@ -71,7 +71,7 @@
     text-decoration: none;
     font-size: 2rem;
     color: #000000;
-    background-color: #ffffffaa;
+    background-color: #ddddddcc;
     height: 5rem;
     width: 20rem;
     border-radius: 0.5rem;
