@@ -149,7 +149,6 @@ small {
         position: fixed;
         top: 0;
         right: 0;
-        border: 3px solid red;
     }
     .line {
         width: 3rem;
