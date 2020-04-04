@@ -143,12 +143,13 @@ small {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 2rem;
+        padding: 1.2rem;
         cursor: pointer;
         z-index: 3;
         position: fixed;
         top: 0;
         right: 0;
+        border: 3px solid red;
     }
     .line {
         width: 3rem;
@@ -198,6 +199,9 @@ small {
     }
     .nav-link {
         padding: 1rem;
+    }
+    .hamburger {
+        padding: 1.1rem;
     }
 }
 
