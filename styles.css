@@ -36,6 +36,21 @@ header {
     z-index: 1;
 }
 
+.hob-logo {
+    height: 3.5rem;
+    width: auto;
+    margin: 0 1rem;
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
 .nav-links {
     display: flex;
     padding: 0 2rem;
@@ -45,13 +60,6 @@ header {
     text-decoration: none;
     color: #dddddd;
     transition: background-color 0.5s ease;
-}
-
-.home-link {
-    font-size: 4rem;
-    font-style: italic;
-    font-weight: bold;
-    padding: 0.5rem 0 0.5rem 2rem;
 }
 
 .nav-link {
@@ -104,6 +112,12 @@ p {
 
 small {
     font-size: 1.2rem;
+    color: #000000;
+}
+
+.hob-logo-footer {
+    height: 6rem;
+    width: auto;
 }
 
 .logo {
